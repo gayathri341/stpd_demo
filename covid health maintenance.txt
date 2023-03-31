@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Health Maintenance</title>
+</head>
+<body>
+    <h1 id="titleName">EASY STEPS TO A HEALTHIER LIFESTYLE</h1>
+
+    <h1 id="healthDescription1">EAT MORE FRUITS AND VEGGIES</h1>
+    <img id="health1" src="https://magazine.medlineplus.gov/images/uploads/main_images/eat-fruit-and-vegetables.jpg" alt="">
+    <p id="healthParagraph1">A diet rich in vegetables and fruits can lower blood pressure, reduce the risk of heart disease and stroke, prevent some types of cancer, lower risk of eye and digestive problems, and have a positive effect upon blood sugar, which can help keep appetite in check.</p>
+
+
+
+
+    <h1 id="healthDescription2">EXERCISE</h1>
+    <img id="health2" src="https://img.freepik.com/premium-vector/people-performing-sports-activities_102902-2562.jpg?w=360" alt="">
+    <p id="healthParagraph2">Exercise is a body activity that enhances or maintains physical fitness and overall health and wellness.It is performed for various reasons, to aid growth and improve strength, develop muscles and the cardiovascular system, hone athletic skills, weight loss or maintenance, improve health, or simply for enjoyment. Many individuals choose to exercise outdoors where they can congregate in groups, socialize, and improve well-being as well as mental health.</p>
+
+
+    <h1 id="healthDescription3">EMOTIONAL HEALTH</h1>
+    <img id="health3" src="https://www.psychologs.com/blogimage/50997_1630152511.jpg" alt="">
+    <p id="healthParagraph3">Emotional health is about how we think and feel. It is about our sense of wellbeing, our ability to cope with life events and how we acknowledge our own emotions as well as those of others. It doesn't mean being happy all of the time.</p>
+
+
+
+
+    <h1 id="healthDescription4">DRINK A LOT OF WATER</h1>
+    <img id="health4" src="https://assets.gqindia.com/photos/5d42c0613519ce0008e650f8/master/pass/How%20drinking%20water%20at%20regular%20intervals%20can%20help%20you%20lose%20weight%20and%20increase%20your%20metabolism.jpg" alt="">
+    <p id="healthParagraph4">Drinking water is water that is used in drink or food preparation; potable water is water that is safe to be used as drinking water. The amount of drinking water required to maintain good health varies, and depends on physical activity level, age, health-related issues, and environmental conditions.</p>
+
+
+
+
+    <h1 id="healthDescription5">HAVE A CUP OF GREEN TEA</h1>
+    <img id="health5" src="https://c.ndtvimg.com/2022-04/q1eefqk_green-tea_625x300_28_April_22.jpg?" alt="">
+    <p id="healthParagraph5">Green tea is derived from the leaves of the Camellia sinensis plant and comes in several varieties.It can be enjoyed hot, cold or even in powdered form, and it’s recognized for its high antioxidant content and health benefits.</p>
+
+    
+</body>
+</html>

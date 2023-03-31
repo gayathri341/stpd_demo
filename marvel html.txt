@@ -1,0 +1,52 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Marvel Universe</title>
+</head>
+<body>
+    <h1 id="TitleName">The Marvel universe</h1>
+    <h2 id="popularHeros">POPULAR SUPER HEROS</h2>
+
+    <img id="superHeros1" src="https://c4.wallpaperflare.com/wallpaper/998/162/362/iron-man-infinity-gauntlet-hd-wallpaper-preview.jpg" alt="">
+    <p id="superHerosName1">Ironman</p>
+    <img id="superHeros2" src="https://wallpaperaccess.com/full/408920.png" alt="">
+    <p id="superHerosName2">Thor</p>
+    <img id="superHeros3" src="https://www.nawpic.com/media/2020/captain-america-nawpic-51.jpg" alt="">
+    <p id="superHerosName3">Captain america</p>
+    <img id="superHeros4" src="https://i.pinimg.com/originals/95/0a/92/950a9240d6a900750765a7cdfbf91bfd.jpg" alt="">
+    <p id="superHerosName4">hulk</p>
+    <img id="superHeros5" src="https://wallpaperaccess.com/full/54038.png" alt="">
+    <p id="superHerosName5">Black panther</p>
+     <img id="superHeros6" src="https://c4.wallpaperflare.com/wallpaper/20/360/54/spiderman-red-fantasy-movie-wallpaper-thumb.jpg" alt="">
+    <p id="superHerosName6">Spiderman</p>
+    <img id="superHeros7" src="https://wallpaperaccess.com/full/569446.jpg" alt="">
+    <p id="superHerosName7">black widow</p>
+    <img id="superHeros8" src="https://wallpapercrafter.com/desktop/298562-Movie-Ant-Man-Phone-Wallpaper.jpg" alt="">
+    <p id="superHerosName8">Ant man</p>
+    
+
+
+
+
+    <h2 id="popularVillains">POPULAR SUPER villains</h2>
+
+    <img id="superVillain1" src="https://rukminim1.flixcart.com/image/850/500/l0fm07k0/poster/o/l/6/small-avengers-loki-multicolour-photo-paper-print-poster-original-imagc8afjpvfg7fh.jpeg?q=90" alt="">
+    <p id="superVillainName1">Loki</p>
+    <img id="superVillain2" src="https://i.pinimg.com/originals/eb/4b/1e/eb4b1e4bda1f09afe06ddd20800f73c0.jpg" alt="">
+    <p id="superVillainName2">Red skull</p> 
+    <img id="superVillain3" src="https://images.hdqwalls.com/wallpapers/thanos-wins-p0.jpg" alt="">
+    <p id="superVillainName3">Thanos</p> 
+    <img id="superVillain4" src="https://p4.wallpaperbetter.com/wallpaper/570/596/13/8k-avengers-4k-age-of-ultron-wallpaper-preview.jpg" alt="">
+    <p id="superVillainName4">Ultron</p> 
+    <img id="superVillain5" src="https://w0.peakpx.com/wallpaper/281/744/HD-wallpaper-green-goblin-marvel-movie-spider-man.jpg" alt="">
+    <p id="superVillainName5">Green Globin</p> 
+    <img id="superVillain6" src="https://coolhdwall.com/storage/202105/spider-man-far-from-mysterio-4k-wallpaper-3840x2160.jpg" alt="">
+    <p id="superVillainName6">Mysterio</p> 
+    <img id="superVillain7" src="https://wallpaperaccess.com/full/4391613.jpg" alt="">
+    <p id="superVillainName7">Doctor octopus</p> 
+    
+</body>
+</html>

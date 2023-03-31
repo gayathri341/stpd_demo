@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopee</title>
+    <style>
+        .dashboard
+        {
+         
+  border: 2px solid black;
+  padding: 25px;
+  background-color: rgb(128, 0, 117); 
+  text-align: center;
+  background-size: 300px 100px
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <div class="dashboard">SHOP</div>
+    <center>
+        <img id="titleImage" src=https://p.kindpng.com/picc/s/189-1897373_shop-now-orange-button-transparent-hd-png-download.png></center>
+    <h1>Discover new bag</h1>
+    <img id="productName1"src=https://imgaz.staticbg.com/thumb/large/oaupload/ser1/banggood/images/39/B0/e542efb0-7a0d-45e8-b2e7-5ec3a10bac32.jpg  >
+    <p id="productImage1">Laptop leather Bag</p>
+    <p id="productPrice1">$68</p><br>
+        <input type="submit"id="productAdd1"value="Add">
+    </div>
+        <div>
+            <center>
+                <h1>Discover New Watch</h1>
+        <img id="productImage2"src=https://i.ebayimg.com/00/s/MTAxN1gxMDI0/z/u94AAOSwSuNad3e3/$_86.JPG> 
+    </center>       
+        <p id="productName2">Smart Watch</p>
+        <p id="productPrice2">$150</p>
+            <input type="submit"id="productAdd2"value="Add">  
+            </div>
+            <div>
+            <center>
+                <h1>Jewel for you</h1>
+                <img id="productImage3"src=https://i5.walmartimages.com/asr/bb098bdc-dd9f-488c-8f3f-b0ca2b6a646c.98544401e41811da6c7a2a6d9d589cb0.jpeg> 
+            </center>       
+                <p id="productName3">Jewels</p>
+                <p id="productPrice3">$1000</p>
+                    <input type="submit"id="productAdd3"value="Add">  
+                    
+            
+            <p id="productFooterIcon">Brought to you by shop world</p>
+        
+            
+</div>
+
+</body>
+</html>

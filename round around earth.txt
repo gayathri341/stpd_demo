@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Earth_from_Space.jpg/2048px-Earth_from_Space.jpg");
+
+  height: 100%;
+
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.container {
+  position: absolute;
+  right: 0;
+  margin: 10px;
+  max-width: 250px;
+  padding: 16px;
+  background-color: white;
+}
+
+
+input[type=text], input[type=password],select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: gray;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: white;
+  outline: none;
+}
+
+
+.btn {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+
+
+<div class="bg-img">
+    
+
+<img id="backgroundImage" src="https://i.pinimg.com/736x/44/99/fe/4499feb98e8547c26c0c5d609fe777b6.jpg">
+  <form id="departure" action="/action_page.php" class="container">
+    <h1 id="heading">Rocket around the Earth</h1>
+    
+    <label id="dropDown" for="dropDown">Departure country</label><br>
+    
+    <select name="dropDown" id="dropDown">
+      
+      <option id="dropDown" value="INDIA">India</option>
+      <option id="dropDown" value="KOREA">Korea</option>
+      <option id="dropDown" value="FRANCE">France</option>
+      <option id="dropDown" value="AUSTRALIA">Australia</option>
+      <option id="dropDown" value="CANADA">Canada</option>
+      <option id="dropDown" value="BELGIUM">Belgium</option>
+      <option id="dropDown" value="ARGENTINA">Argentina</option>
+      <option id="dropDown" value="US">Us</option>
+
+
+    </select>
+    
+    <label for="no of space travellers">NO OF SPACE TRAVELLERS</label>
+<input type="text" id="noOfTravellers" placeholder="enter number of sape travellers"></input>
+    <label  id="email" for="email">Your Email</label>
+    <input type="text" value="default" placeholder="Enter Email" name="email" required>
+<p id="yesOrNo>
+   <label for="yesOrNo">Do you wanna rent a space suit</label><br>
+   <input name="yesOrNotype="radio" id="yesOrNo">Yes,Please</input><br>
+   <input name="yesOrNotype="radio" >No,I have my own</input><br>
+   </p>
+    <button type="submit" id="submit" class="btn">Take us to space</button>
+  </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Styling</title>
+    <style>
+            h1{
+                margin-top: 0px;
+                font-family: Arial;
+
+            }
+            .image1{
+                filter: invert(100%);
+                width:40px;
+                margin-top: 20px;
+            }
+            h3{
+                color: white ;
+                font-family: Arial;
+            }
+            body{
+                background-color: pink;
+                position: relative;
+                }
+            .sidebar{
+                
+                width: 200px;
+                height:668px;
+                background-color: black;
+               
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .info{
+                height: 660px;
+                width: 1220px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding-left: 150px;
+            }
+            ul{
+                list-style-type: none;
+            }
+    </style>
+</head>
+    <body>
+        <nav id="navigationPannel" class="sidebar">
+            <h3 id="headingLists">Css Of Webpages</h3>
+            <ul id="lists">
+            <li><a href="login.html" id="login">
+                <img  class="image1" src="https://tse2.mm.bing.net/th?id=OIP.ulty5wHXavNvkgQJs6JjWwHaHa&pid=Api&P=0">
+            </a></li>
+            <li><a href="table.html" id="table">
+                <img  class="image1" src="https://cdn3.iconfinder.com/data/icons/files-folders-line/100/spreadsheet-512.png">
+            </a></li>
+            <li><a href="image.html" id="image">
+                <img class="image1" src="https://tse2.mm.bing.net/th?id=OIP.f-OVIhKOpgAPS5Z2kuOtFQHaHa&pid=Api&P=0">
+            </a></li>
+            <li><a href="frame.html" id="frames">
+                <img  class="image1" src="https://tse2.mm.bing.net/th?id=OIP.xU69TjkVZc0iLljB07jX5QHaG3&pid=Api&P=0">
+            </a></li>
+            </ul>
+        </nav>
+        <div  class="info">
+            <h1 id="title">WEB PAGE STYLING WITH CSS</h1>
+            <p id="description">Each icon has its own navigation link,it can be moved to different web pages</p>
+        </div>
+    </body>
+</html>
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Pages</title>
+    <style>
+      body{
+        background-color: black;
+       
+      }
+      .login{
+        background-color: pink;
+        
+      }
+      
+      button{
+        color:black;
+        background-color: white;
+        
+      }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+      <h1 id="login-heading">LOGIN</h1>
+        <div class="single">
+          <h3>Name :</h3>
+          <input  type="text">
+        </div>
+        <div class="single">
+          <h3>Email :</h3>
+          <input  type="text">
+        </div>
+        <div class="single">
+          <h3>Password :</h3>
+          <input type="text">
+        </div>
+        <button id="submit_btn">LOGIN</button>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+        body{text-align:center;}
+        table, th, td {border: 1px solid black; align:center;}
+        .center {
+          margin-left: auto;
+          margin-right: auto;
+        } 
+        #list-1{display: inline-block;text-align: left;}
+    </style>
+</head>
+<body>
+    
+  <div style="background-color:lightblue">
+        <h1 id="heading">TABLES AND LISTS</h1><br>
+        <table class="center" id="table-1""width:50%">
+        <tr><th>Roll No</th><th>Name</th><th>Course</th><th>Department</th></tr>
+        <tr><td>001</td><td>AKASH</td><td>AGRICULTURAL ENGINEERING</td><td>AE</td></tr>
+        <tr><td>002</td><td>ASHWINI</td><td>ELECTRONICS & COMMUNICATION ENGINEERING</td><td>ECE</td></tr>
+        <tr><td>003</td><td>ASVANTH</td><td>MECHANICAL ENGINEERING</td><td>ME</td></tr>
+        <tr><td>004</td><td>BARATH</td><td>ELECTRONICS & COMMUNICATION ENGINEERING</td><td>ECE</td></tr>
+        <tr><td>005</td><td>EZHIL ARASI</td><td>INFORMATION TECHNOLOGY</td><td>IT</td></tr>
+        <tr><td>006</td><td>GANESH</td><td>ELECTRONICS & COMMUNICATION ENGINEERING</td><td>ECE</td></tr>
+        <tr><td>007</td><td>HARINI</td><td>AGRICULTURAL ENGINEERING</td><td>AE</td></tr>
+        <tr><td>008</td><td>KAVYA</td><td>AUTOMOBILE ENGINEERING</td><td>AE</td></tr>
+        <tr><td>009</td><td>MURUGASEN</td><td>ELECTRONICS & COMMUNICATION ENGINEERING</td><td>ECE</td></tr>
+        <tr><td>010</td><td>PRIYA</td><td>MECHANICAL ENGINEERING</td><td>ME</td></tr>
+        <tr><td>011</td><td>RANJITH KUMAR</td><td>MECHANICAL ENGINEERING</td><td>ME</td></tr>
+        <tr><td>012</td><td>YAMINI</td><td>AERONAUTICAL ENGINEERING</td><td>AE</td></tr>
+        <tr><td>013</td><td>YOGA LAKSHMI</td><td>CIVIL ENGINEERING</td><td>CE</td></tr>
+        </table><br>
+        <h2 id="courses">No Of Courses Available</h2>
+        <ul id="list-1"><li>INFORMATION TECHNOLOGY</li><li>MECHANICAL ENGINEERING</li><li>CIVIL ENGINEERING</li><li>AUTOMOBILE ENGINEERING</li><li>AGRICULTURAL ENGINEERING</li><li>ELECTRONICS & COMMUNICATION ENGINEERING</li></ul>
+   </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browser</title>
+
+  <style>
+     .b1{
+      background-color:purple;
+      
+     }
+     h1{
+        
+        color: black;
+        font-family: Arial;
+        padding-top: 50px;
+     }
+   
+</style>
+</head>
+
+<body class="b1">
+    <center>
+    <h1 id="title"> IMAGE MAP </h1>
+ 
+<img id="images" src="https://i.pinimg.com/736x/0a/13/d5/0a13d51dae6cbefe9dd7f95d1f1c5e0f.jpg">
+  
+</center>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+  <style> body{
+      background-color:pink;
+     
+  }
+  h1{
+        
+        color: black;
+        font-family: Arial;
+        padding-top: 80px;
+     }
+     iframe{
+        height: 350px;
+        width: 350px;
+     }
+  </style>
+</head>
+<body>
+    <center>
+        <h1 id="frameHeading"> FRAMES IN HTML </h1>
+        <iframe id="frameImage1" src="http://s3.amazonaws.com/digitaltrends-uploads-prod/2014/04/macbook-air-2013-review-lid-open-angle-2-1500x991.jpg"></iframe>
+        <iframe id="frameImage2" src="https://2.bp.blogspot.com/-ikqZXfapwNQ/WW-luJf1fSI/AAAAAAAAAJg/u3JV4sd7l0oGEUotDeYjpg_ExyaEtKPHwCLcBGAs/s1600/Apple%2BMacBook%2B%2B1.2%2BGHZ%2BProcessor%2BMK4N2LL.jpg"></iframe>
+    </center>
+</body>
+</html>
